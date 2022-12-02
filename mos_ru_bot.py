@@ -21,3 +21,5 @@ def login(login, password):
 
     mos_ru_enter = driver.find_element(By.ID, "bind")
     mos_ru_enter.click()
+
+login("login", "password")
