@@ -23,3 +23,11 @@ def login(login, password):
     mos_ru_enter.click()
 
 login("login", "password")
+
+
+def login(login, password):
+    driver = webdriver.Chrome()
+
+    driver.get("https://www.mos.ru/pgu/ru/application/oiv/booking/#step_2")
+    driver.implicitly_wait(10)
+    getCookie = driver.get_cookies()пщ
